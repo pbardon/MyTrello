@@ -1,0 +1,5 @@
+<% boards.each(function(board) { %>
+  <li> <a href="#boards/<%= board.get('id') %>"><%= board.escape('title') %></a></li>
+<% }); %>
+
+<div class="boards-new"></div>
